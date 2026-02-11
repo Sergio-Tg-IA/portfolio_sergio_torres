@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sergio Torres Gironés | Consultor de IA</title>
+    <meta name="description"
+        content="Portfolio profesional de Sergio Torres Gironés, Consultor de IA especializado en soluciones estratégicas, automatizaciones y agentes de IA.">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&family=Inter:wght@400;500;600;700;800&family=Sora:wght@300;400;600;700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Animated Background -->
+    <div id="bg-canvas-container">
+        <canvas id="bg-canvas"></canvas>
+    </div>
+    <div id="spotlight"></div>
+
+    <nav id="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">ST</a>
+            <ul class="nav-links">
+                <li><a href="#about">Sobre Mí</a></li>
+                <li><a href="#projects">Proyectos</a></li>
+                <li><a href="#education">Educación</a></li>
+                <li><a href="#experience">Experiencia</a></li>
+                <li><a href="#tools">Herramientas</a></li>
+                <li><a href="#contact">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero">
+            <div class="hero-content">
+                <div class="hero-image-placeholder">
+                    <!-- Foto se añadirá más tarde -->
+                    <span>FOTO</span>
+                </div>
+                <h1>Sergio Torres Gironés</h1>
+                <h2 class="typing-text">Consultor de IA</h2>
+                <p class="hero-tagline">Identifico retos operativos. Integro soluciones inteligentes. Devuelvo el foco a
+                    tu negocio.</p>
+                <a href="#contact" class="btn primary">Contactar</a>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section-padding">
+            <h2 class="section-title">Sobre Mí</h2>
+            <div class="placeholder-content">
+                <p style="font-size: 1.25rem; color: #fff; margin-bottom: 2rem; line-height: 1.6;">
+                    Tras una década de experiencia en el sector dental, un entorno donde la precisión y el detalle son
+                    fundamentales, he volcado mi capacidad analítica en el mundo de la IA Generativa. Mi pasión no es
+                    solo la tecnología, sino entender el "dolor" real de una empresa para integrar soluciones
+                    inteligentes que devuelvan el foco a lo que realmente genera valor.
+                </p>
+                <p style="color: var(--text-secondary); margin-bottom: 3rem; line-height: 1.6;">
+                    No me limito a recomendar software; escucho, analizo y ejecuto el cambio tecnológico necesario para
+                    transformar tu productividad. Mi objetivo es que la IA no sea un concepto complejo, sino un motor
+                    transparente que potencie tu operativa diaria.
+                </p>
+                <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 2rem;">
+                    <div class="visual-card">
+                        <h4 style="color: var(--accent-blue); margin-bottom: 1rem;">Misión</h4>
+                        <p>Eliminar la fricción operativa mediante el uso estratégico de la inteligencia artificial.</p>
+                    </div>
+                    <div class="visual-card">
+                        <h4 style="color: var(--accent-blue); margin-bottom: 1rem;">Visión</h4>
+                        <p>Convertir la tecnología en un aliado invisible que trabaje para las personas, no al revés.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section-padding">
+            <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 4rem;">
+                <h2 class="section-title" style="margin-bottom: 0;">Proyectos</h2>
+                <span style="color: var(--text-secondary); font-size: 0.9rem; letter-spacing: 2px;">SOLUCIONES
+                    IMPLEMENTADAS</span>
+            </div>
+            <div style="display: grid; grid-template-columns: 1fr; gap: 4rem;">
+                <!-- Project Card: DentalStock -->
+                <div class="placeholder-content project-card interactive-card" id="project-dentalstock"
+                    style="padding: 0; overflow: hidden; display: flex; flex-direction: row; flex-wrap: wrap; cursor: pointer;">
+                    <div
+                        style="flex: 1.2; min-width: 350px; padding: 3rem; display: flex; flex-direction: column; justify-content: center;">
+                        <span
+                            style="color: var(--accent-blue); font-weight: 600; letter-spacing: 1px; margin-bottom: 0.5rem; display: block;">Asistente
+                            Proactivo de Laboratorio</span>
+                        <h3 class="branding" style="font-size: 2.5rem; margin-bottom: 1.5rem;">
+                            <span class="branding-dental">Dental</span><span class="branding-stock">Stock</span>
+                        </h3>
+                        <p
+                            style="font-size: 1.1rem; color: #fff; margin-bottom: 1rem; line-height: 1.6; font-weight: 500;">
+                            Control total del almacén para una producción sin parones.
+                        </p>
+                        <p
+                            style="font-size: 1rem; color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.7;">
+                            Más que un inventario, es un sistema que vigila tu stock en tiempo real. Elimina la
+                            incertidumbre y asegura que tu laboratorio nunca se detenga por falta de material.
+                        </p>
+                        <div
+                            style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-bottom: 2.5rem;">
+                            <div>
+                                <h4
+                                    style="color: var(--accent-blue); font-size: 0.9rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">
+                                    Valor Estratégico</h4>
+                                <ul style="list-style: none; font-size: 0.85rem; color: var(--text-secondary);">
+                                    <li>🚀 Producción sin parones</li>
+                                    <li>🤝 Fiabilidad con la Clínica</li>
+                                    <li>🧘 Operativa sin Caos</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4
+                                    style="color: var(--accent-blue); font-size: 0.9rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">
+                                    Control Inteligente</h4>
+                                <ul style="list-style: none; font-size: 0.85rem; color: var(--text-secondary);">
+                                    <li>🚥 Control visual según la cantidad</li>
+                                    <li>🤖 Reposición Inteligente</li>
+                                    <li>🤳 Fricción Cero</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tags"><span>Control de Stock</span> <span>Facilidad de Uso</span></div>
+                    </div>
+                    <div class="project-img-placeholder"
+                        style="flex: 0.8; min-width: 300px; height: auto; min-height: 450px; border-radius: 0; border: none; background: linear-gradient(135deg, #0f172a 0%, #1e293b 100%); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+                        <div
+                            style="position: absolute; width: 150%; height: 150%; background: radial-gradient(circle, rgba(56, 189, 248, 0.05) 0%, transparent 70%);">
+                        </div>
+                        <div
+                            style="padding: 2.5rem; background: var(--glass-bg); border-radius: 24px; border: 1px solid var(--glass-border); text-align: center; backdrop-filter: blur(10px); position: relative; z-index: 2; box-shadow: 0 20px 40px rgba(0,0,0,0.4);">
+                            <img src="assets/dentalstock_logo.jpg" alt="DentalStock Logo"
+                                style="width: 120px; height: 120px; margin-bottom: 1rem; object-fit: contain; filter: drop-shadow(0 0 10px rgba(56, 189, 248, 0.3)); image-rendering: -webkit-optimize-contrast;">
+                            <div class="branding" style="font-size: 1.5rem;">
+                                <span class="branding-dental">Dental</span><span class="branding-stock">Stock</span>
+                            </div>
+                            <div
+                                style="font-size: 0.7rem; color: var(--text-secondary); margin-top: 0.5rem; text-transform: uppercase; letter-spacing: 3px;">
+                                Continuidad de Producción</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card: AutoLabAI -->
+                <div class="placeholder-content project-card interactive-card" id="project-autolabai"
+                    style="padding: 0; overflow: hidden; display: flex; flex-direction: row; flex-wrap: wrap; cursor: pointer;">
+                    <div
+                        style="flex: 1.2; min-width: 350px; padding: 3rem; display: flex; flex-direction: column; justify-content: center;">
+                        <span
+                            style="color: var(--accent-violet); font-weight: 600; letter-spacing: 1px; margin-bottom: 0.5rem; display: block;">Asistente
+                            de Gestión de Casos</span>
+                        <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem;">
+                            <h3 class="branding" style="font-size: 2.5rem; margin-bottom: 0;">
+                                <span class="branding-autolab">AutoLab</span><span class="branding-ai">AI</span>
+                            </h3>
+                            <div
+                                style="padding: 0.3rem 0.8rem; background: rgba(139, 92, 246, 0.15); border: 1px solid rgba(139, 92, 246, 0.3); border-radius: 100px; font-size: 0.5rem; color: var(--accent-violet); font-weight: 700; letter-spacing: 1px; text-transform: uppercase; white-space: nowrap;">
+                                Proyecto Final de Máster</div>
+                        </div>
+                        <p
+                            style="font-size: 1.1rem; color: #fff; margin-bottom: 1rem; line-height: 1.6; font-weight: 500;">
+                            Gestión autónoma de comunicaciones y órdenes de trabajo.
+                        </p>
+                        <p
+                            style="font-size: 1rem; color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.7;">
+                            Automatiza la recepción y clasificación de correos clínicos. Transforma el caos en
+                            información
+                            estructurada y procesos visuales sin intervención humana.
+                        </p>
+                        <div
+                            style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-bottom: 2.5rem;">
+                            <div>
+                                <h4
+                                    style="color: var(--accent-violet); font-size: 0.9rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">
+                                    Valor Estratégico</h4>
+                                <ul style="list-style: none; font-size: 0.85rem; color: var(--text-secondary);">
+                                    <li>📈 +Capacidad Productiva</li>
+                                    <li>🛡️ Anonimización de datos</li>
+                                    <li>⚡ Respuesta Inmediata</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4
+                                    style="color: var(--accent-violet); font-size: 0.9rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">
+                                    Flujo Inteligente</h4>
+                                <ul style="list-style: none; font-size: 0.85rem; color: var(--text-secondary);">
+                                    <li>🤖 Clasificación por IA</li>
+                                    <li>🔗 Ecosistema Conectado</li>
+                                    <li>📡 Avisos en Tiempo Real</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <span
+                                style="background: rgba(139, 92, 246, 0.1); color: var(--accent-violet); border-color: rgba(139, 92, 246, 0.2);">n8n</span>
+                            <span
+                                style="background: rgba(139, 92, 246, 0.1); color: var(--accent-violet); border-color: rgba(139, 92, 246, 0.2);">AI
+                                Agents</span>
+                            <span
+                                style="background: rgba(139, 92, 246, 0.1); color: var(--accent-violet); border-color: rgba(139, 92, 246, 0.2);">Automation</span>
+                        </div>
+                    </div>
+                    <div class="project-img-placeholder"
+                        style="flex: 0.8; min-width: 300px; height: auto; min-height: 450px; border-radius: 0; border: none; background: linear-gradient(135deg, #0f172a 0%, #2e1065 100%); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+                        <div
+                            style="position: absolute; width: 150%; height: 150%; background: radial-gradient(circle, rgba(139, 92, 246, 0.1) 0%, transparent 70%);">
+                        </div>
+                        <div
+                            style="padding: 1.5rem; background: var(--glass-bg); border-radius: 24px; border: 1px solid var(--glass-border); text-align: center; backdrop-filter: blur(10px); position: relative; z-index: 2; box-shadow: 0 20px 40px rgba(0,0,0,0.4); width: 85%;">
+                            <img src="AutoLabAI/presentacion_AutoLabAI/workflow_n8n_AutoLab_AI.png"
+                                alt="AutoLabAI Workflow"
+                                style="width: 100%; height: auto; border-radius: 12px; margin-bottom: 1rem; filter: drop-shadow(0 0 10px rgba(139, 92, 246, 0.3));">
+                            <div class="branding" style="font-size: 1.2rem;">
+                                <span class="branding-autolab">AutoLab</span><span class="branding-ai">AI</span>
+                            </div>
+                            <div
+                                style="font-size: 0.6rem; color: var(--text-secondary); margin-top: 0.5rem; text-transform: uppercase; letter-spacing: 2px;">
+                                Inteligencia de Proceso</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card: Perezoso Café -->
+                <div class="placeholder-content project-card interactive-card" id="project-perezoso"
+                    style="padding: 0; overflow: hidden; display: flex; flex-direction: row; flex-wrap: wrap; cursor: pointer;">
+                    <div
+                        style="flex: 1.2; min-width: 350px; padding: 3rem; display: flex; flex-direction: column; justify-content: center;">
+                        <span
+                            style="color: var(--coffee-sage); font-weight: 600; letter-spacing: 1px; margin-bottom: 0.5rem; display: block;">Identidad
+                            Visual y Spot IA</span>
+
+                        <div style="display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem;">
+                            <h3 class="branding" style="font-size: 2.5rem; margin-bottom: 0;">
+                                <span class="branding-perezoso-cafe">Perezoso</span> <span
+                                    class="branding-cafe">Café</span>
+                            </h3>
+                        </div>
+
+                        <p
+                            style="font-size: 1.1rem; color: #fff; margin-bottom: 1rem; line-height: 1.6; font-weight: 500;">
+                            Sinfonía creativa: Del Moodboard al Spot publicitario.
+                        </p>
+                        <p
+                            style="font-size: 1rem; color: var(--text-secondary); margin-bottom: 2rem; line-height: 1.7;">
+                            Creación de una marca de café de especialidad desde cero. Coherencia total entre arte visual
+                            (Midjourney), clips cinematográficos (Sora) y audio original (Suno).
+                        </p>
+                        <div
+                            style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 1.5rem; margin-bottom: 2.5rem;">
+                            <div>
+                                <h4
+                                    style="color: var(--coffee-sage); font-size: 0.9rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">
+                                    Imágenes y Vídeo</h4>
+                                <ul style="list-style: none; font-size: 0.85rem; color: var(--text-secondary);">
+                                    <li>✨ Midjourney (Arte/Animación)</li>
+                                    <li>📽️ Sora & Veo3</li>
+                                    <li>🎵 Suno (Música Original)</li>
+                                </ul>
+                            </div>
+                            <div>
+                                <h4
+                                    style="color: var(--coffee-sage); font-size: 0.9rem; margin-bottom: 0.5rem; text-transform: uppercase; letter-spacing: 1px;">
+                                    Continuidad</h4>
+                                <ul style="list-style: none; font-size: 0.85rem; color: var(--text-secondary);">
+                                    <li>🧩 Continuidad en todo el proyecto</li>
+                                    <li>💎 Estética Premium</li>
+                                    <li>🎬 Edición Capcut</li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="tags">
+                            <span
+                                style="background: rgba(42, 77, 105, 0.1); color: var(--coffee-blue); border-color: rgba(42, 77, 105, 0.2);">Midjourney</span>
+                            <span
+                                style="background: rgba(168, 187, 164, 0.1); color: var(--coffee-sage); border-color: rgba(168, 187, 164, 0.2);">Sora
+                                & Veo3</span>
+                            <span
+                                style="background: rgba(78, 52, 46, 0.1); color: var(--coffee-brown); border-color: rgba(78, 52, 46, 0.2);">Suno</span>
+                        </div>
+                    </div>
+                    <div class="project-img-placeholder"
+                        style="flex: 0.8; min-width: 300px; height: auto; min-height: 450px; border-radius: 0; border: none; background: linear-gradient(135deg, var(--coffee-beige) 0%, #dcdcdc 100%); display: flex; align-items: center; justify-content: center; position: relative; overflow: hidden;">
+                        <div
+                            style="position: absolute; width: 150%; height: 150%; background: radial-gradient(circle, rgba(255, 255, 255, 0.5) 0%, transparent 70%);">
+                        </div>
+                        <div
+                            style="padding: 1.5rem; background: rgba(255, 255, 255, 0.2); border-radius: 24px; border: 1px solid rgba(255, 255, 255, 0.3); text-align: center; backdrop-filter: blur(10px); position: relative; z-index: 2; box-shadow: 0 20px 40px rgba(0,0,0,0.1); width: 85%;">
+                            <img src="proyecto_spot_publicitario/moodboard_spot_publicitario.jpg"
+                                alt="Perezoso Café Moodboard"
+                                style="width: 100%; height: auto; border-radius: 12px; margin-bottom: 1rem; filter: drop-shadow(0 5px 15px rgba(0,0,0,0.1));">
+                            <div class="branding" style="font-size: 1.2rem;">
+                                <span class="branding-perezoso-cafe">Perezoso</span> <span class="branding-cafe"
+                                    style="color: #4E342E;">Café</span>
+                            </div>
+                            <div
+                                style="font-size: 0.6rem; color: #4E342E; margin-top: 0.5rem; text-transform: uppercase; letter-spacing: 2px; font-weight: 600;">
+                                Branding & Spot IA</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section-padding">
+            <h2 class="section-title">Educación</h2>
+            <div class="education-container">
+                <!-- Master Card -->
+                <div class="placeholder-content education-card master-card">
+                    <div class="education-header">
+                        <div class="org-logo">
+                            <img src="assets/logos/evolve_academy_logo.png" alt="Evolve Academy Logo">
+                        </div>
+                        <div class="education-title-group">
+                            <span class="date">2024 - 2025</span>
+                            <h3 class="master-title">Máster en IA Generativa e Innovación</h3>
+                            <p class="org-name">Evolve Academy</p>
+                        </div>
+                    </div>
+
+                    <p class="education-description">
+                        Especialización avanzada en la arquitectura e implementación de soluciones basadas en IA.
+                        Desde la creación de agentes autónomos hasta la orquestación de flujos de trabajo inteligentes.
+                    </p>
+
+                    <div class="master-modules-grid">
+                        <div class="module-box">
+                            <h4><span class="icon">✍️</span> Texto e IA Conversacional</h4>
+                            <div class="tool-tags">
+                                <span>ChatGPT</span> <span>Claude</span> <span>GPT Builder</span> <span>n8n</span>
+                                <span>Make</span>
+                            </div>
+                        </div>
+                        <div class="module-box">
+                            <h4><span class="icon">🖼️</span> Generación de Imagen</h4>
+                            <div class="tool-tags">
+                                <span>Midjourney</span> <span>DALL-E</span> <span>Stable Diffusion</span>
+                            </div>
+                        </div>
+                        <div class="module-box">
+                            <h4><span class="icon">🎬</span> Generación de Vídeo</h4>
+                            <div class="tool-tags">
+                                <span>Sora</span> <span>Runway ML</span> <span>Pika</span> <span>Veo3</span>
+                            </div>
+                        </div>
+                        <div class="module-box">
+                            <h4><span class="icon">🎙️</span> Voz y Audio</h4>
+                            <div class="tool-tags">
+                                <span>ElevenLabs</span> <span>Descript</span> <span>Suno</span>
+                            </div>
+                        </div>
+                        <div class="module-box">
+                            <h4><span class="icon">🚀</span> No-Code / App Dev</h4>
+                            <div class="tool-tags">
+                                <span>Bubble</span> <span>Lovable</span> <span>Landbot</span>
+                            </div>
+                        </div>
+                        <div class="module-box">
+                            <h4><span class="icon">📊</span> Datos y Lógica</h4>
+                            <div class="tool-tags">
+                                <span>JSON / CSV</span> <span>Airtable</span> <span>Trello</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Second card placeholder for later -->
+                <div class="placeholder-content education-card background-card"
+                    style="margin-top: 2rem; padding: 2.5rem; display: flex; align-items: center; justify-content: center; opacity: 0.6; border-style: dashed;">
+                    <p style="margin: 0;">Próximamente: Formación Técnica Superior</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section-padding">
+            <h2 class="section-title">Experiencia</h2>
+            <div class="placeholder-content">
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <span class="date">Actualmente</span>
+                        <h3>Consultor de IA</h3>
+                        <p>Desarrollo de habilidades estratégicas y gestión de soluciones tecnológicas.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Section -->
+        <section id="tools" class="section-padding">
+            <h2 class="section-title">Herramientas</h2>
+            <div class="tools-grid"
+                style="display: grid; grid-template-columns: repeat(auto-fit, minmax(120px, 1fr)); gap: 2rem;">
+                <div class="tool-item">AI Agents</div>
+                <div class="tool-item">Automation</div>
+                <div class="tool-item">Web Apps</div>
+                <div class="tool-item">Data Logic</div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section-padding">
+            <div class="placeholder-content" style="text-align: center;">
+                <h2
+                    style="font-size: 3rem; margin-bottom: 1rem; -webkit-text-fill-color: initial; background: none; color: #fff;">
+                    ¿Hablamos?</h2>
+                <p style="margin-bottom: 3rem;">Lleva tu negocio al siguiente nivel con soluciones de IA.</p>
+                <a href="#" class="btn primary">Enviar un mensaje</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Project Modal -->
+    <div id="project-modal" class="modal">
+        <div id="modal-bg-container"
+            style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; z-index: -1; pointer-events: none; overflow: hidden;">
+            <canvas id="modal-bg-canvas"></canvas>
+            <div id="modal-spotlight"
+                style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; pointer-events: none; z-index: 1; background: radial-gradient(600px circle at var(--x, 50%) var(--y, 50%), rgba(56, 189, 248, 0.08), transparent 80%);">
+            </div>
+        </div>
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modal-body">
+                <!-- Content will be injected by main.js -->
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Sergio Torres Gironés. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- Image Lightbox -->
+    <div id="image-lightbox" class="lightbox">
+        <span class="close-lightbox">&times;</span>
+        <div class="lightbox-nav-btn lb-prev">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="15 18 9 12 15 6"></polyline>
+            </svg>
+        </div>
+        <div class="lightbox-content">
+            <img id="lightbox-img" src="" alt="Enlarged view">
+        </div>
+        <div class="lightbox-nav-btn lb-next">
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"
+                stroke-linejoin="round">
+                <polyline points="9 18 15 12 9 6"></polyline>
+            </svg>
+        </div>
+    </div>
+
+    <script src="main.js?v=1.1"></script>
+</body>
+
+</html>
