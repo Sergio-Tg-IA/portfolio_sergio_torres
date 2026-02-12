@@ -412,7 +412,7 @@ const projectData = {
                             <h4 style="color: #fff; margin-bottom: 0.5rem; font-size: 1.6rem; font-family: 'Sora', sans-serif; text-align: center;">Escenarios de Automatización</h4>
                             
                             <!-- ACORDEÓN 1: INFORMACIÓN COMPLETA -->
-                            <details open style="border-radius: 16px; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); overflow: hidden;">
+                            <details style="border-radius: 16px; background: rgba(255,255,255,0.02); border: 1px solid var(--glass-border); overflow: hidden;">
                                 <summary style="padding: 1.5rem; color: #fff; font-family: 'Sora'; font-weight: 600; cursor: pointer; list-style: none; display: flex; justify-content: space-between; align-items: center; background: rgba(139, 92, 246, 0.05);">
                                     <span>Escenario A: Nuevo caso con toda la información</span>
                                     <span class="acc-icon" style="transition: transform 0.3s;">▼</span>
